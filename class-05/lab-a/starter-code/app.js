@@ -127,8 +127,8 @@ function multiplyArray(multArr) { //eslint-disable-line
   let multiplyA =testArray[0]*testArray[1]*testArray[2];
   return [multiplyA,`The numbers 2,3,4 have a product of 24.`];
 
-
 }
+
 
 // Here is the test for multiplyArray(); uncomment it to run it
  testMultiplyArray(testArray);
@@ -141,7 +141,12 @@ function multiplyArray(multArr) { //eslint-disable-line
 
 /////////////////////////////////////
 /* STRETCH GOAL: Problem 6
-Write a function called multiplyAnyArray() that takes an array of numbers of any length as its argument and returns an array whose first element is the product of those numbers, and the second element is a string that EXACTLY follows this example and concatenates a message using the arguments that were passed into the function:
+Write a function called multiplyAnyArray()
+ that takes an array of numbers of any length as
+  its argument and returns an array whose first element is 
+  the product of those numbers, and the second element is a 
+  string that EXACTLY follows this example and concatenates a
+   message using the arguments that were passed into the function:
 
 "The numbers 1,2,3,4,5 have a product of 120."
 
